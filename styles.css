@@ -1,0 +1,23 @@
+#hourHand, 
+#minuteHand, 
+#secondHand {
+    position: absolute;
+    background-color: black;
+    transform-origin: bottom center
+}
+#hourHand {
+    margin-left: -2px;
+    z-index: +3
+}
+#minuteHand {
+    margin-left: -2px;
+    z-index: +4
+}
+#secondHand {
+    margin-left: -1px;
+    background-color: red;
+    z-index: +5
+}
+#digitalClock {
+    position: absolute
+}
